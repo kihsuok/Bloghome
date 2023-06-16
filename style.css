@@ -1,0 +1,86 @@
+/* Custom styles go here */
+.container{
+  width:100%;
+  align-items: center;
+}
+.jumbotron {
+  background-color: #f8f9fa;
+  padding: 3rem;
+}
+
+.section {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.segment {
+  margin-bottom: 1.5rem;
+  scale:0.95;
+}
+.segment:hover{
+  scale:1;
+}
+
+
+.sub-segment {
+  padding: 1.2rem;
+  background-color: #f1f8ff;
+  border-radius: 0.5rem;
+  color: #333;
+}
+
+.news-feed,
+.events,
+.jobs {
+  margin-top: 2rem;
+}
+
+.blogs-header {
+  background-color: #ffeead;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.segment-content {
+  background-color: #f9d9b1;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  color: #333;
+}
+
+.news-header,
+.events-header,
+.jobs-header {
+  background-color: #c2e0c6;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.section-container-blog {
+  background-image: url('blog.jpg');
+  border-radius: 10px;
+  padding: 10px;
+
+}
+
+.section-container-news {
+  background-image: url('news.jpg');
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.section-container-events {
+  background-image: url('events.jpg');
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.section-container-jobs {
+  background-image: url('jobs.jpg');
+  border-radius: 10px;
+  padding: 10px;
+}
